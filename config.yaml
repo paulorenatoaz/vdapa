@@ -1,7 +1,6 @@
 github:
   base_url: "https://github.com/advisories"
   api_url: "https://api.github.com"
-  token: "seu_token_aqui"
 
 nvd:
   api_url: "https://services.nvd.nist.gov/rest/json"

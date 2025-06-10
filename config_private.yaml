@@ -1,0 +1,4 @@
+github:
+  token: "SEU_TOKEN_GITHUB_AQUI"
+nvd:
+  token: "SEU_TOKEN_NVD_AQUI"
