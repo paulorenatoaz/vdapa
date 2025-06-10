@@ -22,32 +22,25 @@ Thank you for your interest in contributing to the vdapa project!
 
 - Please open issues with detailed steps to reproduce any bugs.
 
----
+### How to contribute (basic commands)
 
-## Versão em Português
+```bash
+# Clone the repository
+git clone https://github.com/paulorenatoaz/vdapa.git
 
-Obrigado pelo seu interesse em contribuir para o projeto vdapa!
+# Enter project directory
+cd vdapa
 
-### Branches
+# Create and switch to a new feature branch
+git checkout -b feature/my-feature develop
 
-- Utilize a branch **develop** para o desenvolvimento contínuo.
-- Crie branches de funcionalidades a partir da **develop** com nome `feature/<nome-da-funcionalidade>`.
-- Use Pull Requests para mesclar suas mudanças na branch **develop**.
-- Prepare branches de release a partir da **develop** para produção.
+# Add your changes
+git add .
 
-### Commits e Pull Requests
+# Commit with a meaningful message
+git commit -m "Describe your changes here"
 
-- Escreva mensagens claras e descritivas.
-- Garanta que seu código passe em todos os testes.
-- Adicione testes para novas funcionalidades ou correções.
-- Revise comentários e atualize seu PR conforme necessário.
+# Push branch to remote
+git push origin feature/my-feature
 
-### Reportando Problemas
-
-- Abra issues detalhadas com passos para reproduzir bugs.
-
----
-
-Thank you for contributing!
-
-Obrigado por contribuir!
+# Open a Pull Request on GitHub to merge your feature into develop
