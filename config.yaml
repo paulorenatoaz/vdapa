@@ -1,0 +1,19 @@
+github:
+  base_url: "https://github.com/advisories"
+  api_url: "https://api.github.com"
+  token: "seu_token_aqui"
+
+nvd:
+  api_url: "https://services.nvd.nist.gov/rest/json"
+
+epss:
+  csv_url: "https://www.first.org/epss/data/epss_scores-current.csv"
+
+paths:
+  raw_data: "./data/raw"
+  processed_data: "./data/processed"
+  reports: "./data/reports"
+
+scraping:
+  delay_seconds: 3
+  max_pages: 100
