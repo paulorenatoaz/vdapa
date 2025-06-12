@@ -27,4 +27,7 @@ build/
 Thumbs.db
 
 # private configuration files
-config_private.yaml
+config/config_private.yaml
+
+# logs
+logs/
