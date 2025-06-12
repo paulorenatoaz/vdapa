@@ -89998,5 +89998,23 @@
     "package": "org.xwiki.platform:xwiki-platform-oldcore",
     "date": "2025-06-12T21:52:50Z",
     "link": "https://github.com/advisories/GHSA-prwh-7838-xf82"
+  },
+  {
+    "ghsa": "GHSA-j6g5-p62x-58hw",
+    "cve": "CVE-2025-43863",
+    "title": "vantage6 lacks brute-force protection on change password functionality",
+    "severity": "Low",
+    "package": "vantage6",
+    "date": "2025-06-12T23:00:41Z",
+    "link": "https://github.com/advisories/GHSA-j6g5-p62x-58hw"
+  },
+  {
+    "ghsa": "GHSA-m3mq-f375-5vgh",
+    "cve": "CVE-2025-43866",
+    "title": "Vantage6 Server JWT secret not cryptographically secure",
+    "severity": "Low",
+    "package": "vantage6-server",
+    "date": "2025-06-12T23:02:13Z",
+    "link": "https://github.com/advisories/GHSA-m3mq-f375-5vgh"
   }
 ]
