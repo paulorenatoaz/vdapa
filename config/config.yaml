@@ -1,5 +1,5 @@
 github:
-  base_url: "https://github.com/advisories"
+  advisories_base_url: "https://github.com/advisories?page="
   api_url: "https://api.github.com"
 
 nvd:
