@@ -59,8 +59,6 @@ Para responder a essas questões, o projeto está dividido em quatro etapas prin
 - **Análise de Dados**: Realização de análises estatísticas e construção de modelos para explorar os três tópicos da RQ1.
 - **Relatórios**: Geração de relatórios completos com visualizações, resumos e conclusões para cada tópico.
 
-Este pipeline modular assegura integridade dos dados, reutilização e clareza durante todo o processo de pesquisa.
-
 ---
 
 For any questions or contributions, feel free to contact the project team.
