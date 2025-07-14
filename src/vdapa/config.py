@@ -19,6 +19,7 @@ def deep_update(base: dict, updates: dict):
         else:
             base[key] = value
 
+
 def load_config():
     """
     Carrega as configurações dos arquivos config.yaml e config_private.yaml (se existir),
