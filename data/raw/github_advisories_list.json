@@ -90016,5 +90016,455 @@
     "package": "vantage6-server",
     "date": "2025-06-12T23:02:13Z",
     "link": "https://github.com/advisories/GHSA-m3mq-f375-5vgh"
+  },
+  {
+    "ghsa": "GHSA-6r3c-xf4w-jxjm",
+    "cve": "CVE-2025-41234",
+    "title": "Spring Framework vulnerable to a reflected file download (RFD)",
+    "severity": "Moderate",
+    "package": "org.springframework:spring-web",
+    "date": "2025-06-13T00:33:18Z",
+    "link": "https://github.com/advisories/GHSA-6r3c-xf4w-jxjm"
+  },
+  {
+    "ghsa": "GHSA-xh32-3m67-qjgf",
+    "cve": "CVE-2025-22240",
+    "title": "Salt allows arbitrary directory creation or file deletion",
+    "severity": "Moderate",
+    "package": "salt",
+    "date": "2025-06-13T09:30:33Z",
+    "link": "https://github.com/advisories/GHSA-xh32-3m67-qjgf"
+  },
+  {
+    "ghsa": "GHSA-r546-h3ff-q585",
+    "cve": "CVE-2025-22238",
+    "title": "Salt vulnerable to directory traversal attack in minion file cache creation",
+    "severity": "Moderate",
+    "package": "salt",
+    "date": "2025-06-13T09:30:33Z",
+    "link": "https://github.com/advisories/GHSA-r546-h3ff-q585"
+  },
+  {
+    "ghsa": "GHSA-fcr4-h6c4-rvvp",
+    "cve": "CVE-2025-22237",
+    "title": "Salt's on demand pillar functionality vulnerable to arbitrary command injections",
+    "severity": "Moderate",
+    "package": "salt",
+    "date": "2025-06-13T09:30:33Z",
+    "link": "https://github.com/advisories/GHSA-fcr4-h6c4-rvvp"
+  },
+  {
+    "ghsa": "GHSA-4j59-vv55-q6h3",
+    "cve": "CVE-2024-38825",
+    "title": "Salt's salt.auth.pki module does not properly authenticate callers",
+    "severity": "Moderate",
+    "package": "salt",
+    "date": "2025-06-13T09:30:33Z",
+    "link": "https://github.com/advisories/GHSA-4j59-vv55-q6h3"
+  },
+  {
+    "ghsa": "GHSA-c46w-gr7f-jm2p",
+    "cve": "CVE-2025-22239",
+    "title": "Salt vulnerable to arbitrary event injection",
+    "severity": "High",
+    "package": "salt",
+    "date": "2025-06-13T09:30:33Z",
+    "link": "https://github.com/advisories/GHSA-c46w-gr7f-jm2p"
+  },
+  {
+    "ghsa": "GHSA-jh7c-xh74-h76f",
+    "cve": "CVE-2025-22236",
+    "title": "Salt has minion event bus authorization bypass vulnerability",
+    "severity": "High",
+    "package": "salt",
+    "date": "2025-06-13T09:30:33Z",
+    "link": "https://github.com/advisories/GHSA-jh7c-xh74-h76f"
+  },
+  {
+    "ghsa": "GHSA-7f3f-x5f5-79gw",
+    "cve": "CVE-2025-22241",
+    "title": "Salt's file contents overwrite the VirtKey class",
+    "severity": "Moderate",
+    "package": "salt",
+    "date": "2025-06-13T09:30:33Z",
+    "link": "https://github.com/advisories/GHSA-7f3f-x5f5-79gw"
+  },
+  {
+    "ghsa": "GHSA-989c-m532-p2hv",
+    "cve": "CVE-2025-22242",
+    "title": "Salt's worker process vulnerable to denial of service through file read operation",
+    "severity": "Moderate",
+    "package": "salt",
+    "date": "2025-06-13T09:30:34Z",
+    "link": "https://github.com/advisories/GHSA-989c-m532-p2hv"
+  },
+  {
+    "ghsa": "GHSA-8pcp-r83j-fc92",
+    "cve": "CVE-2024-38824",
+    "title": "Salt vulnerable to directory traversal attack in file receiving method",
+    "severity": "Critical",
+    "package": "salt",
+    "date": "2025-06-13T09:30:34Z",
+    "link": "https://github.com/advisories/GHSA-8pcp-r83j-fc92"
+  },
+  {
+    "ghsa": "GHSA-86xf-2mgp-gv3g",
+    "cve": "CVE-2025-49576",
+    "title": "starcitizentools/citizen-skin allows stored XSS in search no result messages",
+    "severity": "Moderate",
+    "package": "starcitizentools/citizen-skin",
+    "date": "2025-06-13T14:07:53Z",
+    "link": "https://github.com/advisories/GHSA-86xf-2mgp-gv3g"
+  },
+  {
+    "ghsa": "GHSA-jwr7-992g-68mh",
+    "cve": "CVE-2025-49577",
+    "title": "starcitizentools/citizen-skin allows stored XSS in preference menu heading messages",
+    "severity": "Moderate",
+    "package": "starcitizentools/citizen-skin",
+    "date": "2025-06-13T14:08:12Z",
+    "link": "https://github.com/advisories/GHSA-jwr7-992g-68mh"
+  },
+  {
+    "ghsa": "GHSA-g3cp-pq72-hjpv",
+    "cve": "CVE-2025-49579",
+    "title": "starcitizentools/citizen-skin allows stored XSS in menu heading message",
+    "severity": "Moderate",
+    "package": "starcitizentools/citizen-skin",
+    "date": "2025-06-13T14:08:31Z",
+    "link": "https://github.com/advisories/GHSA-g3cp-pq72-hjpv"
+  },
+  {
+    "ghsa": "GHSA-2v3v-3whp-953h",
+    "cve": "CVE-2025-49578",
+    "title": "starcitizentools/citizen-skin allows stored XSS in user registration date message",
+    "severity": "Moderate",
+    "package": "starcitizentools/citizen-skin",
+    "date": "2025-06-13T14:09:00Z",
+    "link": "https://github.com/advisories/GHSA-2v3v-3whp-953h"
+  },
+  {
+    "ghsa": "GHSA-r7pm-mw8g-p7px",
+    "cve": null,
+    "title": "Ibexa eZ Platform Admin UI XSS vulnerabilities in back office",
+    "severity": "Moderate",
+    "package": "ezsystems/ezplatform-admin-ui",
+    "date": "2025-06-13T14:47:43Z",
+    "link": "https://github.com/advisories/GHSA-r7pm-mw8g-p7px"
+  },
+  {
+    "ghsa": "GHSA-r5rx-53g9-25rj",
+    "cve": null,
+    "title": "Ibexa eZ Platform Admin UI assets XSS vulnerabilities in back office",
+    "severity": "Moderate",
+    "package": "ezsystems/ezplatform-admin-ui-assets",
+    "date": "2025-06-13T14:49:19Z",
+    "link": "https://github.com/advisories/GHSA-r5rx-53g9-25rj"
+  },
+  {
+    "ghsa": "GHSA-vhgq-r8gx-5fpv",
+    "cve": null,
+    "title": "Ibexa Admin UI assets XSS vulnerabilities in back office",
+    "severity": "Moderate",
+    "package": "ibexa/admin-ui-assets",
+    "date": "2025-06-13T14:50:05Z",
+    "link": "https://github.com/advisories/GHSA-vhgq-r8gx-5fpv"
+  },
+  {
+    "ghsa": "GHSA-5r6x-g6jv-4v87",
+    "cve": null,
+    "title": "Ibexa Admin UI XSS vulnerabilities in back office",
+    "severity": "Moderate",
+    "package": "ibexa/admin-ui",
+    "date": "2025-06-13T14:50:44Z",
+    "link": "https://github.com/advisories/GHSA-5r6x-g6jv-4v87"
+  },
+  {
+    "ghsa": "GHSA-9qv6-4pwm-m68f",
+    "cve": null,
+    "title": "Ibexa RichText Field Type XSS vulnerabilities in back office",
+    "severity": "Moderate",
+    "package": "ibexa/fieldtype-richtext",
+    "date": "2025-06-13T14:51:11Z",
+    "link": "https://github.com/advisories/GHSA-9qv6-4pwm-m68f"
+  },
+  {
+    "ghsa": "GHSA-cf8v-5mrc-jv7f",
+    "cve": "CVE-2025-28382",
+    "title": "OpenC3 COSMOS Vulnerable to Directory Traversal via openc3-api/tables endpoint",
+    "severity": "High",
+    "package": "openc3-cosmos-tool-iframe",
+    "date": "2025-06-13T15:30:31Z",
+    "link": "https://github.com/advisories/GHSA-cf8v-5mrc-jv7f"
+  },
+  {
+    "ghsa": "GHSA-p67j-387g-75wc",
+    "cve": "CVE-2025-28384",
+    "title": "OpenC3 COSMOS Vulnerable to Directory Traversal via /script-api/scripts/ endpoint",
+    "severity": "Critical",
+    "package": "openc3-cosmos-tool-iframe",
+    "date": "2025-06-13T15:30:31Z",
+    "link": "https://github.com/advisories/GHSA-p67j-387g-75wc"
+  },
+  {
+    "ghsa": "GHSA-m63q-4hr8-5r5h",
+    "cve": "CVE-2025-46096",
+    "title": "Solon Vulnerable to Directory Traversal",
+    "severity": "Moderate",
+    "package": "org.noear:solon-faas-luffy",
+    "date": "2025-06-13T15:30:31Z",
+    "link": "https://github.com/advisories/GHSA-m63q-4hr8-5r5h"
+  },
+  {
+    "ghsa": "GHSA-jm43-hrq7-r7w6",
+    "cve": "CVE-2025-49580",
+    "title": "XWiki allows privilege escalation through link refactoring",
+    "severity": "High",
+    "package": "org.xwiki.platform:xwiki-platform-refactoring-default",
+    "date": "2025-06-13T20:24:24Z",
+    "link": "https://github.com/advisories/GHSA-jm43-hrq7-r7w6"
+  },
+  {
+    "ghsa": "GHSA-c32m-27pj-4xcj",
+    "cve": "CVE-2025-49582",
+    "title": "XWiki's required right warnings for macros are incomplete",
+    "severity": "High",
+    "package": "org.xwiki.platform:xwiki-platform-rendering-macro-cache",
+    "date": "2025-06-13T20:38:58Z",
+    "link": "https://github.com/advisories/GHSA-c32m-27pj-4xcj"
+  },
+  {
+    "ghsa": "GHSA-9875-cw22-f7cx",
+    "cve": "CVE-2025-49581",
+    "title": "XWiki allows remote code execution through default value of wiki macro wiki-type parameters",
+    "severity": "High",
+    "package": "org.xwiki.platform:xwiki-platform-rendering-wikimacro-store",
+    "date": "2025-06-13T20:40:19Z",
+    "link": "https://github.com/advisories/GHSA-9875-cw22-f7cx"
+  },
+  {
+    "ghsa": "GHSA-ff6v-w58f-v97w",
+    "cve": "CVE-2025-49583",
+    "title": "XWiki provides no warning when granting XWiki.Notifications.Code.NotificationEmailRendererClass admin right",
+    "severity": "Moderate",
+    "package": "org.xwiki.platform:xwiki-platform-notifications-notifiers-default",
+    "date": "2025-06-13T20:41:12Z",
+    "link": "https://github.com/advisories/GHSA-ff6v-w58f-v97w"
+  },
+  {
+    "ghsa": "GHSA-mvp5-qx9c-c3fv",
+    "cve": "CVE-2025-49584",
+    "title": "XWiki makes title of inaccessible pages available through the class property values REST API",
+    "severity": "High",
+    "package": "org.xwiki.platform:xwiki-platform-rest-server",
+    "date": "2025-06-13T20:42:12Z",
+    "link": "https://github.com/advisories/GHSA-mvp5-qx9c-c3fv"
+  },
+  {
+    "ghsa": "GHSA-j7p2-87q3-44w7",
+    "cve": "CVE-2025-49587",
+    "title": "XWiki does not require right warnings for notification displayer objects",
+    "severity": "Moderate",
+    "package": "org.xwiki.platform:xwiki-platform-notifications-notifiers-default",
+    "date": "2025-06-13T20:45:44Z",
+    "link": "https://github.com/advisories/GHSA-j7p2-87q3-44w7"
+  },
+  {
+    "ghsa": "GHSA-jp4x-w9cj-97q7",
+    "cve": "CVE-2025-49586",
+    "title": "XWiki allows remote code execution through preview of XClass changes in AWM editor",
+    "severity": "High",
+    "package": "org.xwiki.platform:xwiki-platform-oldcore",
+    "date": "2025-06-13T20:46:21Z",
+    "link": "https://github.com/advisories/GHSA-jp4x-w9cj-97q7"
+  },
+  {
+    "ghsa": "GHSA-59w6-r9hm-439h",
+    "cve": "CVE-2025-49585",
+    "title": "XWiki does not require right warnings for XClass definitions",
+    "severity": "High",
+    "package": "org.xwiki.platform:xwiki-platform-security-requiredrights-default",
+    "date": "2025-06-13T20:46:58Z",
+    "link": "https://github.com/advisories/GHSA-59w6-r9hm-439h"
+  },
+  {
+    "ghsa": "GHSA-x3c7-22c8-prg7",
+    "cve": "CVE-2025-49597",
+    "title": "handcraftedinthealps/goodby-csv has Potential Gadget Chain allowing Remote Code Execution",
+    "severity": "Low",
+    "package": "handcraftedinthealps/goodby-csv",
+    "date": "2025-06-13T21:09:00Z",
+    "link": "https://github.com/advisories/GHSA-x3c7-22c8-prg7"
+  },
+  {
+    "ghsa": "GHSA-7f8r-222p-6f5g",
+    "cve": "CVE-2025-49596",
+    "title": "MCP Inspector proxy server lacks authentication between the Inspector client and proxy",
+    "severity": "Critical",
+    "package": "@modelcontextprotocol/inspector",
+    "date": "2025-06-13T22:15:26Z",
+    "link": "https://github.com/advisories/GHSA-7f8r-222p-6f5g"
+  },
+  {
+    "ghsa": "GHSA-57jg-m997-cx3q",
+    "cve": "CVE-2025-47951",
+    "title": "Weblate lacks rate limiting when verifying second factor",
+    "severity": "Moderate",
+    "package": "weblate",
+    "date": "2025-06-16T14:52:53Z",
+    "link": "https://github.com/advisories/GHSA-57jg-m997-cx3q"
+  },
+  {
+    "ghsa": "GHSA-4qqf-9m5c-w2c5",
+    "cve": "CVE-2025-49134",
+    "title": "Weblate exposes personal IP address via e-mail",
+    "severity": "Low",
+    "package": "weblate",
+    "date": "2025-06-16T14:52:56Z",
+    "link": "https://github.com/advisories/GHSA-4qqf-9m5c-w2c5"
+  },
+  {
+    "ghsa": "GHSA-8c26-xm99-53w7",
+    "cve": "CVE-2025-3602",
+    "title": "Liferay Portal does not limit the depth of a GraphQL queries",
+    "severity": "High",
+    "package": "com.liferay:com.liferay.portal.vulcan.impl",
+    "date": "2025-06-16T15:32:27Z",
+    "link": "https://github.com/advisories/GHSA-8c26-xm99-53w7"
+  },
+  {
+    "ghsa": "GHSA-vv7r-c36w-3prj",
+    "cve": "CVE-2025-48976",
+    "title": "Apache Commons FileUpload, Apache Commons FileUpload: FileUpload DoS via part headers",
+    "severity": "High",
+    "package": "org.apache.commons:commons-fileupload2-core",
+    "date": "2025-06-16T15:32:28Z",
+    "link": "https://github.com/advisories/GHSA-vv7r-c36w-3prj"
+  },
+  {
+    "ghsa": "GHSA-h3gc-qfqq-6h8f",
+    "cve": "CVE-2025-48988",
+    "title": "Apache Tomcat - DoS in multipart upload",
+    "severity": "High",
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "date": "2025-06-16T15:32:28Z",
+    "link": "https://github.com/advisories/GHSA-h3gc-qfqq-6h8f"
+  },
+  {
+    "ghsa": "GHSA-wc4r-xq3c-5cf3",
+    "cve": "CVE-2025-49125",
+    "title": "Apache Tomcat - Security constraint bypass for pre/post-resources",
+    "severity": "Moderate",
+    "package": "org.apache.tomcat.embed:tomcat-embed-core",
+    "date": "2025-06-16T15:32:28Z",
+    "link": "https://github.com/advisories/GHSA-wc4r-xq3c-5cf3"
+  },
+  {
+    "ghsa": "GHSA-p73j-gpcq-49h8",
+    "cve": "CVE-2025-3594",
+    "title": "Liferay Portal path traversal vulnerability with the downloading and installation of Xuggler",
+    "severity": "High",
+    "package": "com.liferay:com.liferay.server.admin.web",
+    "date": "2025-06-16T15:32:28Z",
+    "link": "https://github.com/advisories/GHSA-p73j-gpcq-49h8"
+  },
+  {
+    "ghsa": "GHSA-mf3r-6m25-3867",
+    "cve": "CVE-2025-3526",
+    "title": "Liferay Portal SessionClicks does not restrict the saving of request parameters in the HTTP session",
+    "severity": "High",
+    "package": "com.liferay.portal:com.liferay.portal.kernel",
+    "date": "2025-06-16T15:32:28Z",
+    "link": "https://github.com/advisories/GHSA-mf3r-6m25-3867"
+  },
+  {
+    "ghsa": "GHSA-g8qw-mgjx-rwjr",
+    "cve": "CVE-2025-5689",
+    "title": "New authd users logging in via SSH are members of the root group",
+    "severity": "Moderate",
+    "package": "github.com/ubuntu/authd",
+    "date": "2025-06-16T16:01:10Z",
+    "link": "https://github.com/advisories/GHSA-g8qw-mgjx-rwjr"
+  },
+  {
+    "ghsa": "GHSA-8qvm-5x2c-j2w7",
+    "cve": "CVE-2025-4565",
+    "title": "protobuf-python has a potential Denial of Service issue",
+    "severity": "High",
+    "package": "protobuf",
+    "date": "2025-06-16T16:02:58Z",
+    "link": "https://github.com/advisories/GHSA-8qvm-5x2c-j2w7"
+  },
+  {
+    "ghsa": "GHSA-5qpg-rh4j-qp35",
+    "cve": null,
+    "title": "pycares has a Use-After-Free Vulnerability",
+    "severity": "Moderate",
+    "package": "pycares",
+    "date": "2025-06-16T16:09:47Z",
+    "link": "https://github.com/advisories/GHSA-5qpg-rh4j-qp35"
+  },
+  {
+    "ghsa": "GHSA-8cqv-pj7f-pwpc",
+    "cve": "CVE-2025-49825",
+    "title": "Teleport allows remote authentication bypass",
+    "severity": "Critical",
+    "package": "github.com/gravitational/teleport",
+    "date": "2025-06-16T17:16:31Z",
+    "link": "https://github.com/advisories/GHSA-8cqv-pj7f-pwpc"
+  },
+  {
+    "ghsa": "GHSA-rvpw-p7vw-wj3m",
+    "cve": "CVE-2025-6087",
+    "title": "OpenNext for Cloudflare (opennextjs-cloudflare) has a SSRF vulnerability via /_next/image endpoint",
+    "severity": "High",
+    "package": "@opennextjs/cloudflare",
+    "date": "2025-06-16T19:37:16Z",
+    "link": "https://github.com/advisories/GHSA-rvpw-p7vw-wj3m"
+  },
+  {
+    "ghsa": "GHSA-rp38-pj7h-r8q2",
+    "cve": "CVE-2025-6167",
+    "title": "python-a2a has a path traversal in the create_workflow function",
+    "severity": "Moderate",
+    "package": "python-a2a",
+    "date": "2025-06-17T09:31:05Z",
+    "link": "https://github.com/advisories/GHSA-rp38-pj7h-r8q2"
+  },
+  {
+    "ghsa": "GHSA-7pr5-w74r-jjj7",
+    "cve": "CVE-2025-6050",
+    "title": "Mezzanine CMS has a Stored Cross-Site Scripting (XSS) vulnerability in the displayable_links_js function",
+    "severity": "Moderate",
+    "package": "Mezzanine",
+    "date": "2025-06-17T12:31:15Z",
+    "link": "https://github.com/advisories/GHSA-7pr5-w74r-jjj7"
+  },
+  {
+    "ghsa": "GHSA-f7gq-h8jv-h3cq",
+    "cve": "CVE-2025-4754",
+    "title": "ash_authentication_phoenix has Insufficient Session Expiration",
+    "severity": "Low",
+    "package": "ash_authentication_phoenix",
+    "date": "2025-06-17T14:20:46Z",
+    "link": "https://github.com/advisories/GHSA-f7gq-h8jv-h3cq"
+  },
+  {
+    "ghsa": "GHSA-9ghp-w2hm-vfpf",
+    "cve": null,
+    "title": "wasmtime_jit_debug Dumps Undefined Memory by `JitDumpFile`",
+    "severity": "Moderate",
+    "package": "wasmtime-jit-debug",
+    "date": "2025-06-17T15:37:56Z",
+    "link": "https://github.com/advisories/GHSA-9ghp-w2hm-vfpf"
+  },
+  {
+    "ghsa": "GHSA-rvqx-wpfh-mfx7",
+    "cve": "CVE-2025-3248",
+    "title": "Langflow Unauth RCE",
+    "severity": "Critical",
+    "package": "langflow",
+    "date": "2025-06-17T20:14:26Z",
+    "link": "https://github.com/advisories/GHSA-rvqx-wpfh-mfx7"
   }
 ]
