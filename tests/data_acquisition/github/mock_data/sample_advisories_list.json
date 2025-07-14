@@ -1,0 +1,11 @@
+[
+    {
+        "ghsa": "GHSA-xxxx",
+        "cve": "CVE-2025-1234",
+        "title": "Test Advisory",
+        "severity": "High",
+        "package": "package_name",
+        "date": "2025-06-10T00:00:00Z",
+        "link": "https://github.com/advisories/GHSA-xxxx"
+    }
+]
