@@ -1,5 +1,5 @@
 github:
-  base_url: "https://github.com/advisories"
+  advisories_base_url: "https://github.com/advisories?page="
   api_url: "https://api.github.com"
 
 nvd:
@@ -12,7 +12,7 @@ paths:
   raw_data: "./data/raw"
   processed_data: "./data/processed"
   reports: "./data/reports"
+  logs: "./logs"
 
 scraping:
-  delay_seconds: 3
-  max_pages: 100
+  delay_seconds: 2

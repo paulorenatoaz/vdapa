@@ -1,1 +1,0 @@
-# vdapa tests package
