@@ -98,54 +98,54 @@ def define_models_and_grids():
 
 			('model', LinearRegression())
 		]),
-		# 'Ridge': Pipeline([
-        #     # 1) keep top 20 features by univariate F-test
-        #     # ('uni', SelectKBest(score_func=f_regression, k=20)),
-        #     # # 2) fit a fast forest to pick the most important of those
-        #     # ('mb', SelectFromModel(RandomForestRegressor(n_estimators=200, random_state=0),
-        #     #                        max_features=10, threshold='median')),
-		# 	('scale', StandardScaler()),
-		# 	# ('pca', PCA(n_components=0.95)),
-		# 	('model', RidgeCV(alphas=np.logspace(-5, 1, 15), cv=5))
-		# ]),
-		# 'Lasso': Pipeline([
-		#
-        #     # ('uni', SelectKBest(score_func=f_regression, k=20)),
-		#
-        #     # ('mb', SelectFromModel(RandomForestRegressor(n_estimators=200, random_state=0),
-        #     #                        max_features=10, threshold='median')),
-		#
-		# 	('scale', StandardScaler()),
-		# 	# ('pca', PCA(n_components=0.95)),
-		# 	('model', LassoCV(alphas=np.logspace(-5, 1, 15), cv=5, max_iter=5000))
-		# ]),
-		# 'ElasticNet': Pipeline([
-        #     # ('uni', SelectKBest(score_func=f_regression, k=20)),
-        #     # ('mb', SelectFromModel(RandomForestRegressor(n_estimators=200, random_state=0),
-        #     #                        max_features=30, threshold='median')),
-		# 	('scale', StandardScaler()),
-		# 	# ('pca', PCA(n_components=0.95)),
-		# 	('model', ElasticNetCV(
-		# 		l1_ratio=[0.1, 0.5, 0.9],
-		# 		alphas=np.logspace(-5, 1, 15),
-		# 		cv=5,
-		# 		max_iter=5000
-		# 	))
-		# ]),
-		# 'RandomForest': RandomForestRegressor(n_jobs=-1, random_state=42),
+		'Ridge': Pipeline([
+            # 1) keep top 20 features by univariate F-test
+            # ('uni', SelectKBest(score_func=f_regression, k=20)),
+            # # 2) fit a fast forest to pick the most important of those
+            # ('mb', SelectFromModel(RandomForestRegressor(n_estimators=200, random_state=0),
+            #                        max_features=10, threshold='median')),
+			('scale', StandardScaler()),
+			# ('pca', PCA(n_components=0.95)),
+			('model', RidgeCV(alphas=np.logspace(-5, 1, 15), cv=5))
+		]),
+		'Lasso': Pipeline([
+
+            # ('uni', SelectKBest(score_func=f_regression, k=20)),
+
+            # ('mb', SelectFromModel(RandomForestRegressor(n_estimators=200, random_state=0),
+            #                        max_features=10, threshold='median')),
+
+			('scale', StandardScaler()),
+			# ('pca', PCA(n_components=0.95)),
+			('model', LassoCV(alphas=np.logspace(-5, 1, 15), cv=5, max_iter=5000))
+		]),
+		'ElasticNet': Pipeline([
+            # ('uni', SelectKBest(score_func=f_regression, k=20)),
+            # ('mb', SelectFromModel(RandomForestRegressor(n_estimators=200, random_state=0),
+            #                        max_features=30, threshold='median')),
+			('scale', StandardScaler()),
+			# ('pca', PCA(n_components=0.95)),
+			('model', ElasticNetCV(
+				l1_ratio=[0.1, 0.5, 0.9],
+				alphas=np.logspace(-5, 1, 15),
+				cv=5,
+				max_iter=5000
+			))
+		]),
+		'RandomForest': RandomForestRegressor(n_jobs=-1, random_state=42),
 		'ExtraTrees': ExtraTreesRegressor(n_jobs=-1, random_state=42),
 		'GradientBoosting': GradientBoostingRegressor(random_state=42),
-		# 'LightGBM': LGBMRegressor(
-		# 	n_estimators=500,
-		# 	learning_rate=0.05,
-		# 	reg_alpha=1.0,
-		# 	reg_lambda=1.0,
-		# 	random_state=42,
-		# 	force_col_wise=True,
-		#     verbose= -1,
-		#     verbosity= -1
-		# ),
-		# 'XGBoost': XGBRegressor(random_state=42, use_label_encoder=False, eval_metric='rmse', verbosity= 0),
+		'LightGBM': LGBMRegressor(
+			n_estimators=500,
+			learning_rate=0.05,
+			reg_alpha=1.0,
+			reg_lambda=1.0,
+			random_state=42,
+			force_col_wise=True,
+		    verbose= -1,
+		    verbosity= -1
+		),
+		'XGBoost': XGBRegressor(random_state=42, use_label_encoder=False, eval_metric='rmse', verbosity= 0),
 		'MLP': Pipeline([
 			('uni', SelectKBest(score_func=f_regression)),
 			('scale', StandardScaler()),
@@ -362,7 +362,7 @@ def train_final_model(X, y_trans, models, results):
     return dest
 
 
-def main():
+def run():
 	quantiles = (0.0, 0.5)  # lower and upper quantiles for clipping
 	X, y_clipped, capcutceil = load_data(quantiles)
 	logger.info("Applying signed log1p to target")
@@ -382,4 +382,4 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+	run()

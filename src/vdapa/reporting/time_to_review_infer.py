@@ -23,7 +23,7 @@ def inv_signed_log1p(z):
     """Inverse of the signed log1p."""
     return np.sign(z) * (np.expm1(np.abs(z)))
 
-def main():
+def run():
 
     time_to_review_model_folder = Path(BASE_DIR) / config["paths"]["processed_data"] / "time_to_review_model"
 

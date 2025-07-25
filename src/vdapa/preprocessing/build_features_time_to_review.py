@@ -4,7 +4,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import holidays
+# import holidays
 
 from vdapa.config import config, BASE_DIR
 from vdapa.utils import setup_logging
@@ -112,7 +112,7 @@ def make_features(df_sub: pd.DataFrame, df_ref: pd.DataFrame) -> pd.DataFrame:
     )
 
     # --- texto ---
-    X["summary_char_count"] = df_sub["summary"].str.len().fillna(0).astype(int)
+    # X["summary_char_count"] = df_sub["summary"].str.len().fillna(0).astype(int)
     X["details_char_count"] = df_sub["details"].str.len().fillna(0).astype(int)
 
 
