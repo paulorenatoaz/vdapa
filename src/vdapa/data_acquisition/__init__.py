@@ -1,1 +1,0 @@
-# vdapa package
